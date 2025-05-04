@@ -1,2 +1,4 @@
 # SpherePacker
-A decent implementation of sphere packing
+
+![bunny](bunny.jpg)
+
