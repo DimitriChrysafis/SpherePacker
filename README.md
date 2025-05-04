@@ -7,3 +7,8 @@ https://dimitrichrysafis.github.io/#post/post8.md for light technical explanatio
 
 ![bunny](bunny.jpg)
 
+
+## How to run
+
+```python3 chad.py```
+change the file path to your 3d model in chad.py before this. it defaults to objects/dragon.obj
