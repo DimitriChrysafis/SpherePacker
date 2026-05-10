@@ -2254,3 +2254,8 @@ live samples after pruning: 17
 saved 5,650 spheres, last r=0.02740, volume 15.8873
 sphere 5,651: r=0.02739, center=(0.8590, 2.2012, -0.1611)
 sample cloud is exhausted; replenishing interior samples
+no viable sample remains above the minimum radius
+done: 5,651 spheres in 290.7s, sphere volume 15.8874
+saved: /Users/dofa/Desktop/spherepacker better/outputs/high_poly_bucky_spheres.json
+saved: /Users/dofa/Desktop/spherepacker better/outputs/high_poly_bucky_spheres.csv
+leave the window open to inspect; close it when done

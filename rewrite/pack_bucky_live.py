@@ -245,8 +245,10 @@ def create_visualizer(mesh, spheres, min_radius, max_radius, resolution):
     visualizer = o3d.visualization.Visualizer()
     visualizer.create_window(window_name="SpherePacker Better - high_poly_bucky.obj", width=1280, height=900)
     visualizer.add_geometry(build_wireframe(mesh))
-    for sphere in spheres:
+    for idx, sphere in enumerate(spheres, start=1):
         add_sphere_geometry(visualizer, sphere, min_radius, max_radius, resolution)
+        if idx % 100 == 0:
+            pump_gui(visualizer, frames=1)
     render = visualizer.get_render_option()
     render.background_color = np.asarray([0.03, 0.035, 0.045])
     render.line_width = 1.0
